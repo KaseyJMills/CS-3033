@@ -1,0 +1,36 @@
+.btn{
+    font-size: 16px;
+    
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 2; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 70px; /* Stay at the top */
+    bottom:0;
+    background-color: rgb(194, 194, 194); /* Black */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+
